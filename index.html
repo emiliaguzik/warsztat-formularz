@@ -19,13 +19,24 @@
         <br>
         <label for="tel">Numer telefonu</label><br>
         <input type="text" name="tel" id="tel">
+        <p>Wybierz miasto</p>
+        <select name="town" id="town">
+               <option value="krakow">Kraków</option>
+                <option value="warsaw">Warszawa</option>
+                <option value="gdansk">Gdańsk</option>
+        </select><br>
+        <br>
+        <p>Płeć</p>
+        <label><input type="radio" name="male">Kobieta</label>
+        <label><input type="radio" name="male">Mężczyzna</label>
+        <label><input type="radio" name="male">Inne</label><br>
         <br>
         <label for="msg">Wiadomość</label><br>
         <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
-        <input type="submit" value="send">
+        <input type="submit" value="send"><br>
         <br>
-        <input type="checkbox">
-        <label for="checkbox">Zgoda na przetwarzanie danych osobowych</label>
+        <input type="checkbox" name="assent" id="assent">
+        <label for="assent">Zgoda na przetwarzanie danych osobowych</label><br>
         <br>
 
     </form>
